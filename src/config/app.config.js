@@ -9,12 +9,14 @@ export const appConfig = {
     landing: {
 
         // Hero section + CTA texts
-        heroTitle: "Validate your SaaS idea in hours, not weeks",
+        heroTitle: `Validate your SaaS idea in hours, not weeks`,
         heroDescription: "The ultimate starter kit for SaaS founders. Pre-configured auth, database, and a high-converting landing page included.",
-        targetedUser: "SaaS founders", // e.g. devs / entrepreneurs / content creators
+        targetedUser: "founders", // e.g. devs / entrepreneurs / content creators
         defaultCTAText: "Validate now!",
         longerCTAText: "Don't waste time on validation. Set up in minutes, validate in hours.", // End of page CTA
 
+        demoSrc: "/demo1.png", //depending on the type of demo (video/gif/interactive/etc.) customize the DemoSection.js file (image by default)
+        
         // Social proof
         brandsTitle: "Trusted by",
         brandsLogos: ["/Stripe.jpg", "/GitHub.jpg", "/Google.jpg"],

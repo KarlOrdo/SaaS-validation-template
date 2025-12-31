@@ -1,8 +1,8 @@
 
-export default function ButtonLogin({styling}) {
+export default function ButtonLogin({styling, text}) {
     return(
-        <button className="btn rounded-xl border-white/5">
-            Login
+        <button className={`btn ${styling}`}>
+            {text}
         </button>
     );
 }
