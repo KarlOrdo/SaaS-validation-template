@@ -15,11 +15,11 @@ export const appConfig = {
         defaultCTAText: "Validate now!",
         longerCTAText: "Don't waste time on validation. Set up in minutes, validate in hours.", // End of page CTA
 
-        demoSrc: "/demo1.png", //depending on the type of demo (video/gif/interactive/etc.) customize the DemoSection.js file (image by default)
+        demoSrc: "/demoSS.png", //depending on the type of demo (video/gif/interactive/etc.) customize the DemoSection.js file (image by default)
         
         // Social proof
-        brandsTitle: "Trusted by",
-        brandsLogos: ["/Stripe.jpg", "/GitHub.jpg", "/Google.jpg"],
+        brandsTitle: "Created with", //e.g.: Trusted by/ Created with. Leave blank if you want logos alone.
+        brandsLogosSrc: "/brands.png",
         usersOpinions: [
             {
                 name: "Jack Goh",

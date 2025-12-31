@@ -11,6 +11,7 @@ export default function DemoSection() {
             className="object-cover"
             priority
             loading="eager"
+            draggable="false"
         />
     </div> 
     );

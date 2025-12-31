@@ -5,8 +5,8 @@ import ButtonLogin from "./ButtonLogin";
 
 export default function Navbar () {
     return (
-        <nav className="border-b border-white/3">
-            <div className="flex flex-row p-4 justify-between">
+        <nav className="border-b border-white/3 ">
+            <div className="flex flex-row justify-between md:grid md:grid-cols-3 md:items-center p-4 max-w-7xl mx-auto">
                 <div>
                     <Link className="flex flex-row items-center" href={"/"}>
                         <Image src={appConfig.logoSrc} width={40} height={40} alt="Logo" />
@@ -14,13 +14,15 @@ export default function Navbar () {
                     </Link>
                 </div>
 
-                <div className="space-x-10 mt-2 max-sm:hidden">
+                <div className="md:flex justify-center space-x-10 hidden">
                     <a className="link link-hover" href="#pricing">Pricing</a>
                     <a className="link link-hover" href="#faq">FAQ</a>
                     <a className="link link-hover" href="#reviews">Reviews</a>
                 </div>
                 
-                <ButtonLogin styling={"rounded-md border-white/5"} text={"Login"}/>
+                <div className="flex justify-end">
+                    <ButtonLogin styling={"rounded-md border-white/5"} text={"Login"}/>
+                </div>
             </div>
         </nav>
     );   
