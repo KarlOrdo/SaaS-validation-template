@@ -2,7 +2,7 @@ export const appConfig = {
     name: "ValidateFast",
     description: "SaaS validation boilerplate",
     domain: "validatefa.st",
-    logoSrc: "@/",
+    logoSrc: "/icon.png",
 
 
     // Details for Landing page
@@ -17,7 +17,7 @@ export const appConfig = {
 
         // Social proof
         brandsTitle: "Trusted by",
-        brandsLogos: ["@/public/Stripe.jpg", "@/public/GitHub.jpg", "@/public/Google.jpg"],
+        brandsLogos: ["/Stripe.jpg", "/GitHub.jpg", "/Google.jpg"],
         usersOpinions: [
             {
                 name: "Jack Goh",
@@ -39,15 +39,15 @@ export const appConfig = {
 
             step1Title: "Clone the Git repository",
             step1Description: "Download the boilerplate and get instant access to a ready-to-use SaaS foundation.",
-            step1Photo: "@/public/step1photo.jpg",
+            step1Photo: "/step1photo.jpg",
 
             step2Title: "Configure essentials",
             step2Description: "Add your project details, connect auth and database, and customize the landing page.",
-            step2Photo: "@/public/step2photo.jpg",
+            step2Photo: "/step2photo.jpg",
 
             step3Title: "Collect users on the waitlist",
             step3Description: "Launch your page and start collecting emails to validate demand for your idea.",
-            step3Photo: "@/public/step3photo.jpg",
+            step3Photo: "/step3photo.jpg",
         },
 
         // Pricing section

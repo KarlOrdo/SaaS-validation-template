@@ -1,7 +1,7 @@
-import { appConfig } from "@/config/app.config";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <h1 className="text-primary">{appConfig.name}</h1>
+    <Navbar />
   );
 }
