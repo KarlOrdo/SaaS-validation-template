@@ -7,7 +7,7 @@ export default function HeroSection() {
             <h1 className="text-5xl md:text-6xl font-bold max-w-2xl">{appConfig.landing.heroTitle}</h1>
             <p className="mt-10 max-w-xl font-light text-lg">{appConfig.landing.heroDescription}</p>
             <ButtonLogin text={appConfig.landing.defaultCTAText} 
-                styling={"btn-accent rounded-xl shadow-lg text-base-content shadow-accent/17 font-bold p-5 py-7 text-3xl mt-10"}/>
+                styling={"btn-accent rounded-xl shadow-lg text-white shadow-accent/17 font-bold p-5 py-7 text-3xl mt-10"}/>
             <p className="text-xs mt-1 text-base-content/30">35% off for the first 2000 customers (9 left)</p>
             
             {/* Happy users */}

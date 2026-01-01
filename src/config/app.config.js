@@ -18,7 +18,7 @@ export const appConfig = {
         demoSrc: "/demoSS.png", //depending on the type of demo (video/gif/interactive/etc.) customize the DemoSection.js file (image by default)
         
         // Social proof
-        brandsTitle: "Created with", //e.g.: Trusted by/ Created with. Leave blank if you want logos alone.
+        brandsTitle: "", //e.g.: Trusted by/ Created with. Leave blank if you want logos alone.
         brandsLogosSrc: "/brands.png",
         usersOpinions: [
             {
@@ -37,19 +37,19 @@ export const appConfig = {
 
         // How it works section
         howItWorks: {
-            title: "Set up your page in 3 steps",
+            title: "Set up your SaaS in 3 steps",
 
             step1Title: "Clone the Git repository",
             step1Description: "Download the boilerplate and get instant access to a ready-to-use SaaS foundation.",
-            step1Photo: "/step1photo.jpg",
+            step1Photo: "/step1.png",
 
             step2Title: "Configure essentials",
             step2Description: "Add your project details, connect auth and database, and customize the landing page.",
-            step2Photo: "/step2photo.jpg",
+            step2Photo: "/step2.gif",
 
             step3Title: "Collect users on the waitlist",
             step3Description: "Launch your page and start collecting emails to validate demand for your idea.",
-            step3Photo: "/step3photo.jpg",
+            step3Photo: "/step3.png",
         },
 
         // Pricing section
