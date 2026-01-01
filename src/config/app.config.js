@@ -20,18 +20,26 @@ export const appConfig = {
         // Social proof
         brandsTitle: "", //e.g.: Trusted by/ Created with. Leave blank if you want logos alone.
         brandsLogosSrc: "/brands.png",
+        
+        //Write 3 opinions
         usersOpinions: [
             {
                 name: "Jack Goh",
-                opinion: "It's a game changer. It comes with an easy-to-follow tutorial and saves a ton of time."
+                opinion: "It's a game changer. It comes with an easy-to-follow tutorial and saves a ton of time.",
+                avatar: "/avatar1.jpg",
+                role: "markefa.st" // for example Founder of X / SEO of X
             },
             {
                 name: "Marc Nadro",
-                opinion: "I was able to launch my project in just one day!"
+                opinion: "I was able to launch my project in just one day!",
+                avatar: "/avatar2.jpg",
+                role: "yavers.com"
             },
             {
                 name: "Matt Hatch",
-                opinion: "An amazing minimalist, lightweight boilerplate with well-organized code."
+                opinion: "An amazing minimalist, lightweight boilerplate with well-organized code.",
+                avatar: "/avatar3.jpg",
+                role: "writex.ink"
             },
         ],
 
@@ -70,9 +78,11 @@ export const appConfig = {
                 type: "subscription",
                 features: [
                     "Everything from Starter",
-                    "Access to a similar template with Lemon Squeezy payments set up"
+                    "Access to a similar template with Lemon Squeezy payments setup",
+                    "Priority support",
                 ],
             },
+            
             // You can add more plans
         ],
 

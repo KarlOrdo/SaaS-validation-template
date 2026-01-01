@@ -14,6 +14,7 @@ export default function BrandSection() {
         width={2540}
         height={300}
         alt="Brands"
+        draggable={"false"}
         />
     </div>
         
