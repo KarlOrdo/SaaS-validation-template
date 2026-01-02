@@ -1,5 +1,6 @@
 import { appConfig } from "@/config/app.config";
 import ButtonLogin from "./ButtonLogin";
+import HappyUsers from "./HappyUsers";
 
 export default function HeroSection() {
     return (
@@ -10,41 +11,8 @@ export default function HeroSection() {
                 styling={"btn-accent rounded-xl shadow-lg text-white shadow-accent/17 font-bold p-5 py-7 text-3xl mt-10"}/>
             <p className="text-xs mt-1 text-base-content/30">35% off for the first 2000 customers (9 left)</p>
             
-            {/* Happy users */}
-            <div className="avatar-group -space-x-4 mt-9">
-                <div className="avatar">
-                    <div className="w-9">
-                    <img src="/profile1.jpeg" />
-                    </div>
-                </div>
-                <div className="avatar">
-                    <div className="w-9">
-                    <img src="/profile2.png" />
-                    </div>
-                </div>
-                <div className="avatar">
-                    <div className="w-9">
-                    <img src="https://img.daisyui.com/images/profile/demo/averagebulk@192.webp" />
-                    </div>
-                </div>
-                <div className="avatar">
-                    <div className="w-9">
-                    <img src="/profile3.jpg" />
-                    </div>
-                </div>
-                <div className="avatar">
-                    <div className="w-9">
-                    <img src="https://img.daisyui.com/images/profile/demo/superperson@192.webp" />
-                    </div>
-                </div>
-                <div className="avatar">
-                    <div className="w-9">
-                    <img src="/profile4.jpg" />
-                    </div>
-                </div>
-                
-            </div>
-            <p className="text-sm">Loved by <strong>1,991</strong> {appConfig.landing.targetedUser}</p>
+            <HappyUsers />
+           
 
         </div>
     );

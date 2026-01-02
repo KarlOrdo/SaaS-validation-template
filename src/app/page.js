@@ -5,6 +5,9 @@ import BrandSection from "@/components/BrandSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
 import CredentialsSection from "@/components/CredentialsSection";
 import PricingSection from "@/components/PricingSection";
+import FaqSection from "@/components/FaqSection";
+import CTASection from "@/components/CTASection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +19,9 @@ export default function Home() {
         <HowItWorksSection />
         <CredentialsSection />
         <PricingSection />
+        <FaqSection />
+        <CTASection />
+        <Footer />
     </main>
   );
 }

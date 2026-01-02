@@ -1,6 +1,6 @@
 export const appConfig = {
     name: "ValidateFast",
-    description: "SaaS validation boilerplate",
+    description: "ValideFast is the ultimate SaaS validation boilerplate to launch quickly and gather feedback even faster.  ",
     domain: "validatefa.st",
     logoSrc: "/icon.png",
 
@@ -19,7 +19,7 @@ export const appConfig = {
         
         // Social proof
         brandsTitle: "", //e.g.: Trusted by/ Created with. Leave blank if you want logos alone.
-        brandsLogosSrc: "/brands.png",
+        brandsLogosSrc: "/brands.png", //Preferable 2540x300 px black and white graphic (see brands.png in public folder)
         
         //Write 3 opinions
         usersOpinions: [
