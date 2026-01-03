@@ -1,6 +1,6 @@
 import { appConfig } from "@/config/app.config"
 import Image from "next/image"
-import ButtonLogin from "./ButtonLogin";
+import ButtonScrollToPricing from "./ButtonScrollToPricing";
 
 export default function HowItWorksSection() {
     
@@ -72,7 +72,7 @@ export default function HowItWorksSection() {
                 
             </div>
 
-            <ButtonLogin styling={"btn-accent text-3xl font-bold p-4 rounded-xl py-7 text-white mt-20"} text={appConfig.landing.defaultCTAText}/>
+            <ButtonScrollToPricing styling={"btn-accent text-3xl font-bold p-4 rounded-xl py-7 text-white mt-20"} text={appConfig.landing.defaultCTAText}/>
         </div>
     );
 }

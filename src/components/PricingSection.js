@@ -1,5 +1,5 @@
 import { appConfig } from "@/config/app.config";
-import ButtonLogin from "./ButtonLogin";
+import ButtonBuy from "./ButtonBuy";
 
 export default function PricingSection() {
     return(
@@ -31,7 +31,7 @@ export default function PricingSection() {
                         ))}
                         </ul>
 
-                        <ButtonLogin styling={"btn-accent text-white font-bold py-7 shadow-2xl rounded-xl mt-10 text-xl"} text={appConfig.landing.defaultCTAText}/>
+                        <ButtonBuy />
                        
                     </div>
                 </div>

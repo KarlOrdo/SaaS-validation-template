@@ -6,7 +6,7 @@ export default function Tos() {
     return (
         <main>
             <Navbar />
-            <div className="flex flex-col items-start max-w-4xl mx-auto mt-20 gap-5">
+            <div className="flex flex-col items-start max-w-4xl mx-auto mt-20 gap-5 mb-10">
                 <h1 className="font-bold text-5xl">Terms and Conditions for {appConfig.name}</h1>
                 {/* Insert date */}
                 <p className="font-bold ">Effective Date: </p> 
@@ -15,8 +15,10 @@ export default function Tos() {
                 {/*Add <h2 className="font-bold text-3xl">Title of paragraph</h2> and <p>content of paragraph</p> for every paragraph.*/}
                 {/* Example below. */}
                 
-                <h2 className="font-bold text-3xl">1. Overview</h2>
-                <p>ValideFast is a boilerplate for creating SaaS pages. It allows users to build their own SaaS landing page.</p>
+                <h2 className="font-bold text-3xl">1. Usage Terms</h2>
+                <p>This is a prototype SaaS project created for testing and validating ideas. 
+                By using this site, you acknowledge that the service is experimental and provided "as-is" without any warranties. 
+                No payments are collected, and use of this site does not create any binding obligations.</p>
             </div>
             <Footer />
         </main>

@@ -1,7 +1,7 @@
 import { appConfig } from "@/config/app.config";
 import Image from "next/image";
 import Link from "next/link";
-import ButtonLogin from "./ButtonLogin";
+import ButtonScrollToPricing from "./ButtonScrollToPricing";
 
 export default function Navbar () {
     return (
@@ -21,7 +21,7 @@ export default function Navbar () {
                 </div>
                 
                 <div className="flex justify-end">
-                    <ButtonLogin styling={"rounded-md border-white/5"} text={"Login"}/>
+                    <ButtonScrollToPricing styling={"rounded-md border-white/5"} text={"Start now!"}/>
                 </div>
             </div>
         </nav>
